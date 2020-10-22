@@ -16,6 +16,7 @@ public void loginApp()
 	
 		AdminLogInpage Loginpage=PageFactory.initElements(driver, AdminLogInpage.class);
 		
+		//changes made by maqbool.
 		Loginpage.loginToAdmin("VPDADMIN", "Venkat@123");
 
 
