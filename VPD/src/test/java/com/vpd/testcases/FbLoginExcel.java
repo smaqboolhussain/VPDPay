@@ -11,6 +11,7 @@ public class FbLoginExcel extends BaseClass {
 		@Test
 		public static void loginApp() throws Exception 
 		{
+			//This is for time purpouse.
 			Thread.sleep(5000);
 			ExcelDataProvider.setExcelFile("Facebook");
 			setUp(ExcelDataProvider.getCellData(1, 0),ExcelDataProvider.getCellData(1, 1));
